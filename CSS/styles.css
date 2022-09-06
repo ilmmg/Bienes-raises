@@ -1,3 +1,8 @@
+/**Global**/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
 /* Header */
 .site-header {
     background-color: #333333;
