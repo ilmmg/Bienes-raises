@@ -6,9 +6,14 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 /**Global**/
+img {
+    max-width: 100%;
+}
+
 .contenedor {
     max-width: 120rem;
     /** = 1200px **/
@@ -36,6 +41,33 @@ h4 {
 .seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+/**Botones**/
+
+.boton {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    
+}
+
+.boton-naranja {
+    background-color: darkgoldenrod;
+}
+
+.boton-verde {
+    background-color: green;
 }
 
 /* Header */
@@ -91,5 +123,43 @@ h4 {
     margin: 0;
 }
 
+/** Mas sobre nosotros **/
+
 .iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+/**ANUNCIOS**/
+.contenedor-anuncios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio {
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid gray;
+    background-color: gainsboro;
+}
+
+.contenido-anuncio {
+    padding: 2rem;
+}
+
+.contenido-anuncio h3 .contenedor-anuncios p {
+    margin: 0;
+}
+
+.precio {
+    color: green;
+    font-weight: 700;
 }
